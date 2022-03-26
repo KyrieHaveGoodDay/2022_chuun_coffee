@@ -36,6 +36,14 @@
     color: #fff;
 
 }
+@media screen and (max-width:768px){
+    /* 要做.... */
+    .banner{
+        /* x y */
+        background-position: -250px 0;
+    }
+    
+  }
 /* 導覽列 */
 nav{
     padding: 20px 15px;
@@ -90,6 +98,13 @@ nav>a:hover{
     gap: 50px;
   
 }
+@media screen and (max-width:768px){
+    /* 要做.... */
+    .new_main{
+        width: 100%;
+    }
+    
+  }
 .new_card{
     width: 600px;
     padding-bottom: 50px;
@@ -111,6 +126,11 @@ nav>a:hover{
 .new_content > h3 {
     font-size: 30px;
     text-align: center;
+}
+@media screen and (max-width:768px){
+    .new_content > h3{
+        font-size: 20px;
+    }
 }
 .new_content > hr {
     width: 300px;
@@ -183,6 +203,14 @@ nav>a:hover{
     gap: 20px;
     
 }
+@media screen and (max-width:768px){
+    .aboutWork_box{
+        width: 100%;
+        display: block;
+        
+    }
+}
+
 .aboutWork_card{
     width: 50%;
     height: 400px;
@@ -190,6 +218,14 @@ nav>a:hover{
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:768px){
+    .aboutWork_card{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+}
+
 .aboutWork_card > a{
     text-decoration: none;
 }
